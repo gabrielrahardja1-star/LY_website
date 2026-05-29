@@ -8,11 +8,10 @@ export default function Footer() {
         {/* Left — Logo */}
         <div className="flex items-center">
           <Image
-            src="https://www.figma.com/api/mcp/asset/3aa9e0f2-4080-410c-999c-330b7356c607"
+            src="/images/logo-blue.png"
             alt="The Light Years CDC"
             width={465}
             height={120}
-            unoptimized
             className="w-full max-w-[300px] h-auto object-contain"
           />
         </div>

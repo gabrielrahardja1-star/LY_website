@@ -5,10 +5,9 @@ export default function Hero() {
   return (
     <section id="hero" className="relative w-full h-[800px] flex items-center">
       <Image
-        src="https://www.figma.com/api/mcp/asset/927d9e14-bf97-4900-970f-7ee2f2a4eecf"
+        src="/images/hero-bg.png"
         alt="Hero background"
         fill
-        unoptimized
         className="object-cover"
         priority
       />

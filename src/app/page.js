@@ -1,4 +1,3 @@
-// TODO: Replace Figma asset URLs with permanent hosted images before deploying
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import WhyChooseUs from '@/components/WhyChooseUs';
@@ -12,7 +11,7 @@ import Footer from '@/components/Footer';
 const childrenCards = [
   {
     title: 'IQ Test',
-    image: 'https://www.figma.com/api/mcp/asset/f80c3a61-2f27-408e-8122-da863263212b',
+    image: '/images/services/children/iq-test.png',
     badges: ['Offline', 'Online'],
     description: 'Evaluates the cognitive abilities across various domains for teens and adults',
     includes: '1.5 hours - 2 hours · Report and consultation',
@@ -20,7 +19,7 @@ const childrenCards = [
   },
   {
     title: 'School Readiness Test',
-    image: 'https://www.figma.com/api/mcp/asset/ce63a103-f9d4-4c3c-87c3-1ad1f5b5edd7',
+    image: '/images/services/children/school-readiness.png',
     badges: ['Offline', 'Online'],
     description: "Assesses a child's development to determine their readiness to transition from Kindergarten to Primary 1",
     includes: '60 min/session · Daily and monthly report · Evaluation of treatment plan every 3 months of therapy',
@@ -28,7 +27,7 @@ const childrenCards = [
   },
   {
     title: 'Play Therapy',
-    image: 'https://www.figma.com/api/mcp/asset/b864a2da-2a50-47f1-b8eb-4b0f31520da6',
+    image: '/images/services/children/play-therapy.png',
     badges: ['Offline', 'Online'],
     description: 'Aims to resolve emotional and behavioural difficulties, and process traumatic experiences through play-based activities',
     includes: '60 min/session · Daily and monthly report · Evaluation of treatment plan every 3 months of therapy',
@@ -36,7 +35,7 @@ const childrenCards = [
   },
   {
     title: 'Speech Therapy',
-    image: 'https://www.figma.com/api/mcp/asset/869c4d5f-2901-40f5-ab7e-c93203adf17b',
+    image: '/images/services/children/speech-therapy.png',
     badges: ['Offline', 'Online'],
     description: 'Supports the development of speech, language, and communication skills',
     includes: '60 min/session · Daily and monthly report · Evaluation of treatment plan every 3 months of therapy',
@@ -44,7 +43,7 @@ const childrenCards = [
   },
   {
     title: 'Behaviour Therapy',
-    image: 'https://www.figma.com/api/mcp/asset/82d5d663-fe43-4f8b-8cc2-edff22409378',
+    image: '/images/services/children/behaviour-therapy.png',
     badges: ['Offline', 'Online'],
     description: 'Focuses on changing unhealthy behaviours and promoting emotional regulation',
     includes: '60 min/session · Daily and monthly report · Evaluation of treatment plan every 3 months of therapy',
@@ -52,7 +51,7 @@ const childrenCards = [
   },
   {
     title: 'Occupational Therapy',
-    image: 'https://www.figma.com/api/mcp/asset/86dff934-cc5b-4ea4-8128-e6b404a01b88',
+    image: '/images/services/children/occupational-therapy.png',
     badges: ['Offline', 'Online'],
     description: 'Focuses on building essential skills used for daily activities',
     includes: '60 min/session · Daily and monthly report · Evaluation of treatment plan every 3 months of therapy',
@@ -60,7 +59,7 @@ const childrenCards = [
   },
   {
     title: 'Sensory Integration Therapy',
-    image: 'https://www.figma.com/api/mcp/asset/b5f940b2-72ad-4e4c-a5c5-915c3876e40b',
+    image: '/images/services/children/sensory-integration.png',
     badges: ['Offline', 'Online'],
     description: 'Helps children to better process and regulate environmental stimuli (Touch, sound, light)',
     includes: '60 min/session · Daily and monthly report · Evaluation of treatment plan every 3 months of therapy',
@@ -68,7 +67,7 @@ const childrenCards = [
   },
   {
     title: 'Learning Disorder Diagnosis',
-    image: 'https://www.figma.com/api/mcp/asset/4cc4bb3d-24f7-4c83-ab6d-c72756fff360',
+    image: '/images/services/children/learning-disorder.png',
     badges: ['Offline', 'Online'],
     description: 'Helps children to identify specific cognitive deficits (Reading, writing, or math)',
     includes: '60 min/session · Daily and monthly report · Report based on assessment · Treatment Plan',
@@ -76,7 +75,7 @@ const childrenCards = [
   },
   {
     title: 'Consultation',
-    image: 'https://www.figma.com/api/mcp/asset/f80c3a61-2f27-408e-8122-da863263212b',
+    image: '/images/services/children/consultation.jpg',
     badges: ['Offline', 'Online'],
     description: "Identifies the child's initial needs and parent's concerns with a psychologist",
     includes: '60 min/session · Screening + Observation · Report based on assessment · Treatment Plan',
@@ -84,7 +83,7 @@ const childrenCards = [
   },
   {
     title: 'Developmental Screening',
-    image: 'https://www.figma.com/api/mcp/asset/ce63a103-f9d4-4c3c-87c3-1ad1f5b5edd7',
+    image: '/images/services/children/developmental-screening.png',
     badges: ['Offline'],
     description: "Assesses the child's general abilities and challenges in relation to their developmental stage",
     includes: '60 min/session · Interview with parents · Report based on assessment · Treatment plan',
@@ -92,7 +91,7 @@ const childrenCards = [
   },
   {
     title: 'Developmental Disorder Diagnosis',
-    image: 'https://www.figma.com/api/mcp/asset/b864a2da-2a50-47f1-b8eb-4b0f31520da6',
+    image: '/images/services/children/developmental-disorder.png',
     badges: ['Offline', 'Online'],
     description: 'Assesses the presence of developmental disorders (Autism, ADHD, and others)',
     includes: '60 min/session · Interview with parents · Report based on assessment · Treatment plan',
@@ -103,7 +102,7 @@ const childrenCards = [
 const teensAdultsCards = [
   {
     title: 'IQ Test',
-    image: 'https://www.figma.com/api/mcp/asset/f80c3a61-2f27-408e-8122-da863263212b',
+    image: '/images/services/teens/iq-test.png',
     badges: ['Offline', 'Online'],
     description: 'Evaluates the cognitive abilities across various domains for teens and adults',
     includes: '1.5 hours - 2 hours · Report and consultation',
@@ -111,7 +110,7 @@ const teensAdultsCards = [
   },
   {
     title: 'Mental Health Check Up',
-    image: 'https://www.figma.com/api/mcp/asset/ce63a103-f9d4-4c3c-87c3-1ad1f5b5edd7',
+    image: '/images/services/teens/mental-health.png',
     badges: ['Offline', 'Online'],
     description: 'Comprehensive evaluation of your emotional and psychological well-being',
     includes: 'Survey questionnaire · Report and consultation',
@@ -119,7 +118,7 @@ const teensAdultsCards = [
   },
   {
     title: 'Anxiety Screening',
-    image: 'https://www.figma.com/api/mcp/asset/86dff934-cc5b-4ea4-8128-e6b404a01b88',
+    image: '/images/services/teens/anxiety.png',
     badges: ['Offline', 'Online'],
     description: 'Identify individuals at risk for anxiety, including the severity of symptoms',
     includes: 'Survey questionnaire · Report and consultation',
@@ -127,7 +126,7 @@ const teensAdultsCards = [
   },
   {
     title: 'ADHD Screening',
-    image: 'https://www.figma.com/api/mcp/asset/b5f940b2-72ad-4e4c-a5c5-915c3876e40b',
+    image: '/images/services/teens/adhd.png',
     badges: ['Offline', 'Online'],
     description: 'Identify behaviours of inattention, impulsivity, and hyperactivity',
     includes: 'Survey questionnaire · Report and consultation',
@@ -135,7 +134,7 @@ const teensAdultsCards = [
   },
   {
     title: 'Depression Screening',
-    image: 'https://www.figma.com/api/mcp/asset/4cc4bb3d-24f7-4c83-ab6d-c72756fff360',
+    image: '/images/services/teens/depression.jpg',
     badges: ['Offline', 'Online'],
     description: 'Identify individuals at risk for depression, including the severity of symptoms',
     includes: 'Survey questionnaire · Report and consultation',
@@ -143,7 +142,7 @@ const teensAdultsCards = [
   },
   {
     title: 'Counselling',
-    image: 'https://www.figma.com/api/mcp/asset/f80c3a61-2f27-408e-8122-da863263212b',
+    image: '/images/services/teens/counselling.png',
     badges: ['Offline', 'Online'],
     description: 'Individual counselling conducted by a psychologist',
     includes: '60 min/session',
@@ -151,7 +150,7 @@ const teensAdultsCards = [
   },
   {
     title: 'Couple Counselling',
-    image: 'https://www.figma.com/api/mcp/asset/82d5d663-fe43-4f8b-8cc2-edff22409378',
+    image: '/images/services/teens/couple-counselling.png',
     badges: ['Offline', 'Online'],
     description: 'Counselling for couples conducted by a psychologist',
     includes: '60 min/session',
@@ -159,7 +158,7 @@ const teensAdultsCards = [
   },
   {
     title: 'Family Counselling',
-    image: 'https://www.figma.com/api/mcp/asset/869c4d5f-2901-40f5-ab7e-c93203adf17b',
+    image: '/images/services/teens/family-counselling.jpg',
     badges: ['Offline', 'Online'],
     description: 'Counselling for family members conducted by a psychologist',
     includes: '60 min/session',

@@ -34,7 +34,6 @@ function ServiceCard({ card }) {
           src={card.image}
           alt={card.title}
           fill
-          unoptimized
           className="object-cover"
         />
       </div>

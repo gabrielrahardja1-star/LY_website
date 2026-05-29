@@ -37,11 +37,10 @@ export default function Navbar() {
       >
         <a href="#hero">
           <Image
-            src="https://www.figma.com/api/mcp/asset/3aa9e0f2-4080-410c-999c-330b7356c607"
+            src={scrolled ? '/images/logo-blue.png' : '/images/logo-white.png'}
             alt="The Light Years CDC"
             width={160}
             height={50}
-            unoptimized
             className="h-10 w-auto object-contain"
           />
         </a>

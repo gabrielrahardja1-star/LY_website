@@ -59,12 +59,11 @@ export default function WhyChooseUs() {
           {/* Center image — links to What We Do section */}
           <a href="#what-we-do" className="flex-shrink-0 group">
             <Image
-              src="https://www.figma.com/api/mcp/asset/a15f3435-9092-4b76-ad12-e6ba3f9fa6ee"
+              src="/images/mascot.png"
               alt="What We Do"
               width={420}
               height={480}
-              unoptimized
-              className="rounded-[48px] object-cover group-hover:opacity-90 transition-opacity"
+              className="object-contain group-hover:opacity-90 transition-opacity"
             />
           </a>
         </div>

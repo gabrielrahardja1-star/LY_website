@@ -3,44 +3,44 @@ import Image from 'next/image';
 // TODO: Replace Figma asset URLs with permanent hosted images before deploying
 const team = [
   {
-    avatar: 'https://www.figma.com/api/mcp/asset/ca4840aa-155b-429f-b709-424641c3a07e',
+    avatar: '/images/team/octavia.jpg',
     role: 'Head of\nPsychological Interventions',
     name: 'Octavia Fitri Prasantami,',
     credential: 'M.Psi., Psikolog',
   },
   {
-    avatar: 'https://www.figma.com/api/mcp/asset/fcb28ef2-ceae-4291-9613-068bc1d52d3a',
+    avatar: '/images/team/desi.png',
     role: 'Psychologist',
     name: 'Ni Ketut Desi Ariani,',
     credential: 'M.Psi., Psikolog',
   },
   {
-    avatar: 'https://www.figma.com/api/mcp/asset/39b2dce1-ffc0-4c85-813b-55af184deb90',
+    avatar: '/images/team/septiaryani.png',
     role: 'Play Therapist',
     name: 'Ni Ketut Septiaryani, S.IP,',
     credential: 'M. KESOS',
     note: '*Certified Therapist',
   },
   {
-    avatar: 'https://www.figma.com/api/mcp/asset/f8465729-23ee-4ab4-a455-8a9097c5e1b0',
+    avatar: '/images/team/adinda.png',
     role: 'Occupational Therapist',
     name: 'Adinda Cyntia Yunica,',
     credential: 'A.Md., O.T',
   },
   {
-    avatar: 'https://www.figma.com/api/mcp/asset/913d81f6-0186-4f0e-ae0c-d7a7443cbb8d',
+    avatar: '/images/team/utami.png',
     role: 'Occupational Therapist',
     name: 'Utami Rahayu',
     credential: 'Amd. OT',
   },
   {
-    avatar: 'https://www.figma.com/api/mcp/asset/7799ace0-4982-475a-b664-0ae781e14572',
+    avatar: '/images/team/rimadina.png',
     role: 'Occupational Therapist',
     name: 'Rimadina Zifaati Choiriah,',
     credential: 'S.Tr. Kes',
   },
   {
-    avatar: 'https://www.figma.com/api/mcp/asset/4d91cff8-b920-4526-89b0-28c9db547474',
+    avatar: '/images/team/inggar.png',
     role: 'Speech Therapist',
     name: 'Inggar Rospita Sanatri,',
     credential: 'A.Md., Kes',
@@ -49,12 +49,7 @@ const team = [
 
 function Star({ size = 32 }) {
   return (
-    <svg width={size} height={size} viewBox="0 0 51 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path
-        d="M25.5 0L31.9 17.6H50.6L36.4 28.5L42.8 46.1L28.5 35.2L14.2 46.1L20.6 28.5L6.4 17.6H25.1L25.5 0Z"
-        fill="#ffd972"
-      />
-    </svg>
+    <Image src="/images/star.png" alt="" width={size} height={size} className="object-contain" />
   );
 }
 
@@ -66,7 +61,6 @@ function TeamCard({ member }) {
           src={member.avatar}
           alt={member.name}
           fill
-          unoptimized
           className="object-cover"
         />
       </div>
